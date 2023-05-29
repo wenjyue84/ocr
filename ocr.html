@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR App</title>
+    <script src='ocr.js'></script>
+</head>
+<body>
+    <input type="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    <button onclick="recognizeText()">Recognize Text</button>
+    <pre id="recognizedText"></pre>
+    <a href="" id="downloadLink" download="recognizedText.txt">Download Text</a>
+</body>
+</html>
